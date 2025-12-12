@@ -13,7 +13,7 @@ class AuthorFactory extends Factory
     {
         return [
             'name' => $this->faker->name(),
-            'bio' => $this->faker->paragraph(),   // bio → paragraph
+            'bio' => $this->faker->paragraph(),
             'avatar' => null,
         ];
     }
